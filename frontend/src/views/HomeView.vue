@@ -9,7 +9,7 @@ interface Task {
   completed: boolean
 }
 
-const API_URL = 'http://localhost:3000/api/tasks'
+const API_URL = '/api/tasks'
 
 const tasks = ref<Task[]>([])
 const title = ref('')
